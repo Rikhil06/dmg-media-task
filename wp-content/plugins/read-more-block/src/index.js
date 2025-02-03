@@ -6,7 +6,7 @@ import { __ } from '@wordpress/i18n';
 
 registerBlockType('custom/read-more-link', {
   title: __('Read More Link', 'text-domain'),
-  icon: 'editor-link',
+  icon: 'admin-links',
   category: 'common',
   attributes: {
     postId: {
@@ -118,7 +118,7 @@ registerBlockType('custom/read-more-link', {
               </ul>
             )}
 
-            <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
               {currentPage > 1 && (
                 <Button isLink onClick={() => setCurrentPage(currentPage - 1)}>
                   {__('Previous', 'text-domain')}

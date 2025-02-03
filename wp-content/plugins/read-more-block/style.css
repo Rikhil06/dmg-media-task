@@ -6,3 +6,9 @@
 .dmg-read-more a:hover {
     text-decoration: underline;
 }
+
+.pagination{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
