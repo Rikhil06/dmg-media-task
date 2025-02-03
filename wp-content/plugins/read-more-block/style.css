@@ -1,0 +1,8 @@
+.dmg-read-more a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.dmg-read-more a:hover {
+    text-decoration: underline;
+}
